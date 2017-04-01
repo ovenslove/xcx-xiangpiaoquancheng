@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+    <!--<image src="{{globalData.staticServerUrl}}/11400029.png"></image>-->
+    <text>今日优惠界面</text>
+</view>

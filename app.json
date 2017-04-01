@@ -1,0 +1,46 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/discount/discount",
+        "pages/order/order",
+        "pages/user/user"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#707070",
+        "selectedColor": "#1296db",
+        "backgroundColor": "#fefefe",
+        "borderStyle": "black",
+        "position": "bottom",
+        "list": [{
+            "pagePath": "pages/index/index",
+            "text": "美食地图",
+            "iconPath": "static/image/map-noactive.png",
+            "selectedIconPath": "static/image/map-active.png"
+
+        }, {
+            "pagePath": "pages/discount/discount",
+            "text": "今日优惠",
+            "iconPath": "static/image/discount-noactive.png",
+            "selectedIconPath": "static/image/discount-active.png"
+
+        }, {
+            "pagePath": "pages/order/order",
+            "text": "点餐助手",
+            "iconPath": "static/image/order-noactive.png",
+            "selectedIconPath": "static/image/order-active.png"
+
+        }, {
+            "pagePath": "pages/user/user",
+            "text": "个人中心",
+            "iconPath": "static/image/user-noactive.png",
+            "selectedIconPath": "static/image/user-active.png"
+
+        }]
+    }
+}

@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="container">
+    <image src="{{globalData.staticServerUrl}}/11400029.png"></image>
+</view>
